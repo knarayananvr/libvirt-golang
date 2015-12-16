@@ -171,7 +171,7 @@ const (
 	ErrDomBhyve          ErrorDomain = C.VIR_FROM_BHYVE
 	ErrDomCrypto         ErrorDomain = C.VIR_FROM_CRYPTO
 	ErrDomFirewall       ErrorDomain = C.VIR_FROM_FIREWALL
-	ErrDomPolkit         ErrorDomain = C.VIR_FROM_POLKIT
+	//ErrDomPolkit         ErrorDomain = C.VIR_FROM_POLKIT
 )
 
 // ErrorLevel specifies how consequent is the error.
